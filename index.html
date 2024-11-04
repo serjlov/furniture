@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniutr</title>
+    <script
+      src="https://kit.fontawesome.com/acd37d0bd2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./src/styles/style.scss" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="home" class="header">
+        <div class="nav-title">
+          <h1>Furniutr.</h1>
+        </div>
+        <nav>
+          <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#shop">Shop</a></li>
+          </ul>
+        </nav>
+        <div class="nav-form">
+          <form>
+            <input type="text" placeholder="Search..." />
+          </form>
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="toggle">
+          <button class="btn-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero__content">
+            <h3>Decorate Home</h3>
+            <h1>Feel your home with a modern design space</h1>
+            <div class="hero__content__btns">
+              <button class="btn-primary btn-pm-rd">Discover</button>
+              <button class="btn-secondary btn-sd-rd watch-btn">
+                <i class="fa-solid fa-play"></i> Watch video
+              </button>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img src="./src/assets/hero-img.png" alt="Main Screen Image" />
+          </div>
+          <div class="modal">
+            <div class="modal__content">
+              <video controls>
+                <source src="your-video-file.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <button class="btn-close">
+                <i class="fas fa-close"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about">
+          <div class="about__image">
+            <img src="./src/assets/about-img.png" alt="Furniture Image" />
+          </div>
+          <div class="about__content">
+            <h2>About</h2>
+            <h1>Furniture</h1>
+            <p>
+              People have been using natural objects, such as tree stumps, rocks
+              and moss, as furniture since the beginning of human civilisation.
+            </p>
+            <div class="hero__content__btns">
+              <button class="btn-primary">Read More</button>
+            </div>
+          </div>
+        </section>
+        <section id="collection" class="collection">
+          <div class="collection__info">
+            <h2>More value from this</h2>
+            <h1>Furniture</h1>
+          </div>
+          <div class="collection__content">
+            <div class="box1 box">
+              <span>1</span>
+              <div class="text">
+                <h2>Full services</h2>
+                <p>Provide the best service and very fast response.</p>
+              </div>
+            </div>
+            <div class="box2 box">
+              <span>2</span>
+              <div class="text">
+                <h2>Long Warranty</h2>
+                <p>
+                  With a 5-year warranty provided, providing satisfying service.
+                </p>
+              </div>
+            </div>
+            <div class="box3 box">
+              <span>3</span>
+              <div class="text">
+                <h2>Modern design</h2>
+                <p>
+                  The room looks beautiful with a blend of contemporary and
+                  attractive design.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="shop" class="shop">
+          <div class="shop__header">
+            <div class="shop__header__info">
+              <h2>Our you have to buy</h2>
+              <h1>Product</h1>
+            </div>
+            <div class="shop__header__btns">
+              <button class="btn-left btn-switch">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="btn-right btn-switch">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="shop__content"></div>
+        </section>
+        <section class="hero-footer">
+          <div class="hero-footer__content">
+            <h1><span>Let's</span> <br />Try Now</h1>
+            <button class="btn-primary">Explore</button>
+          </div>
+          <div class="hero-footer__image">
+            <img src="./src/assets/hero-footer.png" alt="Hero Footer Image" />
+          </div>
+        </section>
+        <div class="line"></div>
+        <footer class="footer">
+          <div class="footer__content">
+            <div class="box">
+              <h2>Get's your discount</h2>
+              <ul>
+                <li>Check now!</li>
+              </ul>
+            </div>
+            <div class="box">
+              <h2>Our services</h2>
+              <ul>
+                <li>Collection</li>
+                <li>How its work</li>
+                <li>Estimats</li>
+              </ul>
+            </div>
+            <div class="box">
+              <h2>Company</h2>
+              <ul>
+                <li>Terms of use</li>
+                <li>Privacy Policy</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+            <div class="box">
+              <h2>Contact</h2>
+              <ul>
+                <li>contact@furniture.com</li>
+                <li>(888) 315-500</li>
+                <li>St. Village, New York</li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
